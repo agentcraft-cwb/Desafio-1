@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo - Casa da vovó -->
+  <rect width="800" height="500" fill="#f0f0e0"/>
+  
+  <!-- Céu -->
+  <rect width="800" height="200" fill="#a7d7f9"/>
+  
+  <!-- Grama -->
+  <rect y="200" width="800" height="300" fill="#8abe8a"/>
+  
+  <!-- Caminho para a casa -->
+  <path d="M100,500 Q400,300 700,500" stroke="#d2b48c" stroke-width="60" fill="none"/>
+  
+  <!-- Casa da vovó -->
+  <rect x="500" y="100" width="250" height="200" fill="#f9c784"/>
+  <rect x="550" y="200" width="70" height="100" fill="#8b4513"/>
+  <path d="M500,100 L625,20 L750,100" fill="#a52a2a"/>
+  <rect x="580" y="50" width="40" height="40" fill="#87ceeb"/>
+  
+  <!-- Árvores -->
+  <circle cx="150" cy="180" r="60" fill="#228b22"/>
+  <rect x="140" y="180" width="20" height="70" fill="#8b4513"/>
+  <circle cx="350" cy="170" r="50" fill="#228b22"/>
+  <rect x="340" y="170" width="20" height="60" fill="#8b4513"/>
+  
+  <!-- Chapeuzinho Vermelho -->
+  <g transform="translate(300, 350)">
+    <!-- Corpo -->
+    <rect x="-25" y="-20" width="50" height="70" fill="#f5f5dc"/>
+    <!-- Capa -->
+    <path d="M-25,-20 Q0,-60 25,-20 L25,50 L-25,50 Z" fill="#cc0000" stroke="#800000" stroke-width="2"/>
+    <!-- Capuz -->
+    <path d="M-15,-20 Q0,-40 15,-20 L15,0 Q0,-5 -15,0 Z" fill="#cc0000" stroke="#800000" stroke-width="2"/>
+    <!-- Rosto -->
+    <circle cx="0" cy="-5" r="15" fill="#ffe4c4"/>
+    <!-- Olhos -->
+    <circle cx="-5" cy="-7" r="2" fill="#000"/>
+    <circle cx="5" cy="-7" r="2" fill="#000"/>
+    <!-- Sorriso -->
+    <path d="M-7,0 Q0,5 7,0" fill="none" stroke="#000" stroke-width="1"/>
+    <!-- Braços -->
+    <line x1="-25" y1="0" x2="-40" y2="-10" stroke="#f5f5dc" stroke-width="10" stroke-linecap="round"/>
+    <line x1="25" y1="0" x2="40" y2="10" stroke="#f5f5dc" stroke-width="10" stroke-linecap="round"/>
+    <!-- Pernas -->
+    <line x1="-15" y1="50" x2="-20" y2="80" stroke="#f5f5dc" stroke-width="10" stroke-linecap="round"/>
+    <line x1="15" y1="50" x2="20" y2="80" stroke="#f5f5dc" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Cesta -->
+  <g transform="translate(355, 345)">
+    <path d="M-20,0 Q0,-15 20,0 L15,25 L-15,25 Z" fill="#d2b48c" stroke="#8b4513" stroke-width="2"/>
+    <path d="M-15,25 L-15,35 L15,35 L15,25" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <path d="M-10,5 L10,5 M-8,10 L8,10 M-5,15 L5,15" stroke="#8b4513" stroke-width="1"/>
+    <!-- Itens da cesta -->
+    <circle cx="-5" cy="15" r="5" fill="#ff6347"/> <!-- Tomate/Maçã -->
+    <circle cx="5" cy="12" r="4" fill="#ffd700"/> <!-- Pão/Queijo -->
+  </g>
+  
+  <!-- Smartphone na mão -->
+  <rect x="250" y="340" width="10" height="15" fill="#000" rx="1"/>
+  <rect x="251" y="341" width="8" height="13" fill="#fff"/>
+  
+  <!-- Título da notícia -->
+  <rect x="50" y="20" width="350" height="60" fill="#fff" opacity="0.8" rx="5"/>
+  <text x="60" y="50" font-family="Arial" font-size="18" font-weight="bold" fill="#cc0000">JOVEM EMPREENDEDORA REVOLUCIONA</text>
+  <text x="60" y="70" font-family="Arial" font-size="18" font-weight="bold" fill="#cc0000">DELIVERY NA FLORESTA ENCANTADA</text>
+</svg>
